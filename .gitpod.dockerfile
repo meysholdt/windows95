@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc
+FROM gitpod/workspace-full-vnc:branch-me-wm
 
 # Install dependencies
 RUN apt-get update \

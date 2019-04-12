@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full-vnc:branch-me-wm
 
+ENV X=1
+
 # Install dependencies
 RUN apt-get update \
  && apt-get install -y libasound2-dev libgtk-3-dev libnss3-dev \
